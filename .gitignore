@@ -1,0 +1,19 @@
+
+# virtual environment
+venv/
+.env/
+
+# python cache
+__pycache__/
+*.pyc
+
+# data & models (generated)
+data/
+models/
+
+# local notes
+notes.txt
+
+# OS files
+.DS_Store
+Thumbs.db
