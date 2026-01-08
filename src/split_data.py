@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 
-def split_holdout(df, n_holdout=5):
+def split_holdout(df, n_holdout=5, seed=None):
     train_df, holdout_df = train_test_split(
-        df, test_size=n_holdout, random_state=42
+        df, test_size=n_holdout, random_state=seed
     )
     return train_df, holdout_df

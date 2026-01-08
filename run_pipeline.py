@@ -12,7 +12,7 @@ print("\nSTEP 1: Load data")
 df = load_data()
 
 print("\nSTEP 2: Split holdout rows")
-train_df, holdout_df = split_holdout(df, n_holdout=5)
+train_df, holdout_df = split_holdout(df, n_holdout=5, seed=None)
 
 print("\nHOLDOUT ROWS (UNSEEN INPUTS):")
 print(holdout_df[["id", "diagnosis"]])
