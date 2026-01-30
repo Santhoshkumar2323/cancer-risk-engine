@@ -1,4 +1,4 @@
-Cancer Risk Engine:
+# Cancer Risk Engine
 
 What this project is?
 
